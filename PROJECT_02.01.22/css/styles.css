@@ -1,0 +1,239 @@
+/*
+REDES SOCIALES
+    https://iconos8.es/icon/set/social-media/ios-glyphs
+
+ALEBRIJES
+    https://d36tnp772eyphs.cloudfront.net/blogs/2/2019/02/alebrijes-en-oaxaca-940x626.jpg
+
+    https://jacoboymariaangeles.com/wp-content/uploads/2022/10/NOMADAS-1.jpg
+
+
+*/
+
+
+* {
+    margin: 0;
+    font-family: Arial;
+/*    font-family: Verdana;*/
+    font-weight: normal;
+}
+
+#wrapper {
+/*    background-color: lightgray;*/
+    width: 980px;
+    margin: 80px auto 120px auto;
+}
+
+body {
+}
+
+nav {
+    display: flex;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+
+main {
+    color: white;
+}
+
+h1, h2 {
+    font-size: 32px;
+    text-transform: uppercase;
+    line-height: 1.5em;
+    letter-spacing: 0.2em;
+    margin: 36px 0 0 0;
+}
+
+.logo {
+    background-color: white;
+    width: 60px;
+    height: auto;
+    filter: grayscale(80%) contrast(200%);
+    transition: transform 0.35s ease-in-out 0.1s;
+}
+.logo:hover {
+    background-color: white;
+    width: 60px;
+    height: auto;
+    transform: scale(1.2);
+}
+
+.link-sections {
+    font-size: 12px;
+    font-weight: bold;
+    margin: 0 20px;
+    color: black;
+    transition: color 0.35s ease-in-out 0.1s;
+}
+.link-sections:hover {
+    color: rgb(212, 0, 50);
+}
+
+.sessions {
+    margin-left: 377px;
+}
+
+.sections {
+    display: inline-block;
+}
+
+.block-caption {
+    margin: 28px 0 0 0;
+    line-height: 2em;
+}
+
+.button {
+    font-size: 12px;
+    border: 1px solid white;
+    padding: 8px 16px;
+    text-align: center;
+    border-radius: 32px;
+    display: inline-block;
+    transition: color 0.35s ease-in-out 0.1s, background-color 0.35s ease-in-out 0.1s, border-color 0.35s ease-in-out 0.1s;
+}
+
+.button-login {
+    color: black;
+    background-color: white;
+    border-color: black;
+}
+.button-login:hover {
+    color: white;
+    border-color: rgb(1, 98, 65);
+    background-color: rgb(1, 98, 65);
+}
+
+.button-register {
+    color: white;
+    background-color: black;
+}
+.button-register:hover {
+    color: white;
+    border-color: rgb(212, 0, 50);
+    background-color: rgb(212, 0, 50);
+}
+
+.section-one,
+.section-two,
+.section-three {
+    margin: 16px 0;
+    text-align: center;
+    height: 328px;
+}
+
+.section-one {
+    background-color: rgb(1, 98, 65);
+    padding: 10px;
+}
+.link-more-info {
+    padding: 8px 16px;
+    text-decoration: underline;
+    transition: border-radius 0.35s ease-in-out 0.1s, background-color 0.35s ease-in-out 0.1s;
+}
+.link-more-info:hover {
+    color: white;
+    border-radius: 32px;
+    background-color: rgb(212, 0, 50);
+}
+
+.section-two,
+.section-three {
+    background-color: rgb(212, 0, 50);
+    display: flex;
+    align-items: center;
+}
+
+.img-placeholder {
+    display: inline-block;
+    width: 480px;
+    height: 328px;
+    background-color: lightblue;
+}
+
+.alebrije-one,
+.alebrije-two {
+    background-position: center;
+    background-size: 102%;
+    transition: background-size 0.35s ease-in-out 0.1s;
+}
+.alebrije-one:hover,
+.alebrije-two:hover {
+    background-size: 140%;
+}
+
+.alebrije-one {
+    background-image: url(https://d36tnp772eyphs.cloudfront.net/blogs/2/2019/02/alebrijes-en-oaxaca-940x626.jpg);
+}
+.alebrije-two {
+    background-image: url(https://jacoboymariaangeles.com/wp-content/uploads/2022/10/NOMADAS-1.jpg);
+}
+
+.half-block {
+    display: inline-block;
+    width: 500px;
+    height: 328px;
+}
+.link-purchase {
+    font-size: 10px;
+    font-size: 12px;
+    margin: 44px 0 0 0;
+    border: 1px solid white;
+    padding: 8px 16px;
+    border-radius: 32px;
+    transition: color 0.35s ease-in-out 0.1s, background-color 0.35s ease-in-out 0.1s;
+}
+.link-purchase:hover {
+    border-radius: 32px;
+    color: rgb(212, 0, 50);
+    background-color: white;
+}
+
+
+/* FOOTER */
+.links-holder {
+    width: 96%;
+    margin: 30px auto;
+    padding: 30px 0;
+    border-top: solid rgb(224, 224, 224) 1px;
+}
+.link-social {
+    color: black;
+    width: 32px;
+    height: 32px;
+    font-size: 12px;
+    display: inline-block;
+    transition: transform 0.35s ease-in-out 0.1s;
+}
+.link-social:hover {
+    transform: scale(1.1) rotate(360deg);
+}
+.link-ln {
+    background-image: url(https://img.icons8.com/?size=32&id=98960&format=png);
+}
+.link-fb {
+    background-image: url(https://img.icons8.com/?size=32&id=118466&format=png);
+}
+.link-in {
+    background-image: url(https://img.icons8.com/?size=32&id=59813&format=png);
+}
+.link-yt {
+    background-image: url(https://img.icons8.com/?size=32&id=62852&format=png);
+}
+.link-tw {
+    background-image: url(https://img.icons8.com/?size=32&id=60014&format=png);
+}
+.link-tt {
+    background-image: url(https://img.icons8.com/?size=32&id=123922&format=png);
+}
+
+
+.footer-description {
+    margin: 10px 0;
+}
+

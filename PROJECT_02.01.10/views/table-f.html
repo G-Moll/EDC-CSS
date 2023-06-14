@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Exercise 02.01.10 Table F</title>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="css/css.css">
+
+	<style type="text/css" media="screen">
+		* {
+			font-family: Calibri;
+		}
+		table, td, tr {
+			border: 1px solid black;
+		}
+		table { border-collapse: collapse; width: 100%;  }
+		td { padding: 10px; }
+		th { border: 1px solid black; }
+
+		.item-quantity { text-align: center; }
+		.item-total { text-align: right; }
+	</style>
+</head>
+<body>
+	<h1>HTML Table with Grouping Tags Rows</h1>
+	<table>
+		<caption>Purchase List</caption>
+		<thead>
+			<tr>
+				<th>Product</th>
+				<th>Quantity</th>
+				<th>Price</th>
+			</tr>
+		</thead>
+		<tfoot>
+			<tr>
+				<td colspan="2">Total</td>
+				<td class="item-total">$ 48,600.00</td>
+			</tr>
+		</tfoot>
+		<tbody>
+			<tr>
+				<td>Monitor</td>
+				<td class="item-quantity">1</td>
+				<td class="item-total">$ 3,000.00</td>
+			</tr>
+			<trOne>
+				<td>CPU</td>
+				<td class="item-quantity">1</td>
+				<td class="item-total">$ 45,000.00</td>
+			</tr>
+			<tr>
+				<td>Mouse</td>
+				<td class="item-quantity">1</td>
+				<td class="item-total">$ 100.00</td>
+			</tr>
+		</tbody>
+	</table>
+</body>
+</html>

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Exercise 02.01.13 Sample 2</title>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="css/css.css">
+
+	<style type="text/css" media="screen">
+		* {
+			font-family: Calibri;
+		}
+	</style>
+</head>
+<body>
+	<h1>Media Queries Images</h1>
+	<picture>
+		<source media="(max-width:600px)" srcset="../imgs/logos/HTML5_Badge.svg">
+		<source media="(max-width:1000px)" srcset="../imgs/logos/CSS3_logo.svg">
+		<source media="(max-width:1400px)" srcset="../imgs/logos/Unofficial_JavaScript_logo_2.svg">
+		<img src="../imgs/3.jpg" alt="Some City Description" style="width: 80%;">
+	</picture>
+	<p>The image on document changes depending in the browser size</p>
+</body>
+</html>

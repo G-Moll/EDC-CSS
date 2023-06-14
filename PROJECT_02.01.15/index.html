@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Exercise 02.01.15</title>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="css/css.css">
+
+	<style type="text/css" media="screen">
+		* {
+			font-family: Calibri;
+		}
+		h2 {
+			text-transform: capitalize;
+			font-weight: normal;
+		}
+	</style>
+</head>
+<body>
+	<h1>Forms</h1>
+	<form>
+		<fieldset>
+			<h2>personal information</h2>
+			<label>Name:</label><br>
+			<input type="text" name=""><br><br>
+
+			<label>Last Name:</label><br>
+			<input type="text" name=""><br><br>
+
+			<label>Password:</label><br>
+			<input type="password" name=""><br><br>
+		</fieldset>
+
+		<fieldset>
+			<h2>current job</h2>
+			<label>
+				<input type="radio" name="current-job" value="cb-full-time">
+				Full-time
+			</label><br>
+			<label>
+				<input type="radio" name="current-job" value="cb-part-time">
+				Part-time
+			</label><br>
+			<label>
+				<input type="radio" name="current-job" value="cb-unemployed">
+				Enemployed
+			</label><br>
+
+		</fieldset>
+
+		<fieldset>
+			<h2>interested in</h2>
+			<label>
+				<input type="checkbox" name="cb-cars">
+				Cars
+			</label><br>
+			<label>
+				<input type="checkbox" name="cb-sports">
+				Sports
+			</label><br>
+			<label>
+				<input type="checkbox" name="cb-videogames">
+				Videogames
+			</label><br>
+		</fieldset>
+
+		<fieldset>
+			<h2>attachments</h2>
+			<label>Attach a file</label>
+			<input type="file">
+		</fieldset>
+
+		<fieldset>
+			<h2>theming</h2>
+			<label>Choose a color</label>
+			<select>
+				<option>white</option>
+				<option>black</option>
+				<option>blue</option>
+				<option>red</option>
+				<option>green</option>
+			</select>
+		</fieldset>
+
+		<fieldset>
+			<h2>contact</h2>
+			<label>Sending button</label>
+			<input type="submit" name="">
+		</fieldset>
+	</form>
+</body>
+</html>
